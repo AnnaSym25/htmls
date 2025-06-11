@@ -1,0 +1,12 @@
+html, body, #page {height: 100%; min-height: 100%;}
+html {
+    box-sizing: border-box;
+    }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+#page {display: flex;
+    flex-direction: column;}
+main {display: flex;  flex-grow: 1;}
+  header, footer {flex-shrink: 0; max-height:10rem;}
