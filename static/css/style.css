@@ -8,5 +8,6 @@ html {
   }
 #page {display: flex;
     flex-direction: column;}
-main {display: flex;  flex-grow: 1;}
+main {display: flex;  flex-grow: 1;  flex-wrap: wrap;}
+
   header, footer {flex-shrink: 0; max-height:10rem;}
